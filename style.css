@@ -13,8 +13,8 @@ body {
 }
 
 header {
-    background-color: #f1c40f;
-    padding: 20px 0;
+    background-color: #3ba6ec;
+    padding: 20px ;
 }
 
 header h1 {
@@ -23,13 +23,16 @@ header h1 {
 }
 
 main {
-    padding: 40px 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 h2 {
     font-size: 28px;
     margin-bottom: 30px;
-    color: #f1c40f;
+    color:  #3ba6ec;
 }
 
 .heroes {
@@ -37,9 +40,47 @@ h2 {
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
+
+}
+    .layla:hover {
+
+    transform: scale(1.05);
+}
+.aldous:hover {
+
+    transform: scale(1.05);
+}
+.lancelot:hover {
+
+    transform: scale(1.05);
+}
+.layla {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+  transition: transform scale(1.05);
+
 }
 
-.hero {
+.layla img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.layla h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.layla p {
+    font-size: 14px;
+    color: #ddd;
+}
+.aldous {
     background-color: #444;
     padding: 20px;
     border-radius: 10px;
@@ -48,18 +89,42 @@ h2 {
     margin-bottom: 20px;
 }
 
-.hero img {
+.aldous img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
 }
 
-.hero h3 {
+.aldous h3 {
     font-size: 20px;
     margin-top: 10px;
 }
 
-.hero p {
+.aldous p {
+    font-size: 14px;
+    color: #ddd;
+}
+.lancelot {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.lancelot img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.lancelot h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.lancelot p {
     font-size: 14px;
     color: #ddd;
 }
